@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>To-Do List</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+  <div class="container">
+    <h1>Todo List</h1>
+
+    <form id="todo-form">
+      <input type="text" id="todo-input" placeholder="Add a todo..." required />
+      <input type="date" id="todo-date" required />
+      <button type="submit" title="Add">
+        <span class="material-icons">add</span>
+      </button>
+    </form>
+
+    <div class="filter-container">
+      <button id="filter-button">FILTER</button>
+      <input type="date" id="filter-date" />
+      <button id="clear-filter">DELETE ALL</button>
+    </div>
+
+    <table style="width: 100%; text-align: left;">
+      <thead>
+        <tr>
+          <th>TASK</th>
+          <th>DUE DATE</th>
+          <th>STATUS</th>
+          <th>ACTIONS</th>
+        </tr>
+      </thead>
+      <tbody id="todo-list">
+        <tr><td colspan="4" style="text-align:center; opacity:0.5;">No task found</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+
+</html>
