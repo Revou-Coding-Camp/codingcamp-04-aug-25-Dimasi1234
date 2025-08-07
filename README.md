@@ -46,8 +46,9 @@ Aplikasi ini memungkinkan pengguna untuk menambahkan, menandai, memfilter, dan m
 ---
 
 ## 📸 Pratinjau
-  
-Screenshot (186).png
+
+<img width="1366" height="768" alt="Screenshot (186)" src="https://github.com/user-attachments/assets/5fb58df0-e365-4ab2-a4c6-a36c0ec302dd" />
+
 ---
 
 ## 📌 Cara Menggunakan
